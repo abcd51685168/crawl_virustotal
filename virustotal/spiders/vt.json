@@ -1,0 +1,140 @@
+{
+    "Read files": [
+        "C:\\WINDOWS\\system32\\winsock.dll"
+    ], 
+    "PE imports": {
+        "kernel32.dll": [
+            "GetModuleHandleA", 
+            "VirtualFree", 
+            "ExitProcess", 
+            "LoadLibraryA", 
+            "VirtualAlloc", 
+            "GetProcAddress"
+        ], 
+        "user32.dll": [
+            "MessageBoxA"
+        ]
+    }, 
+    "Number of PE resources by type": {
+        "RT_ICON": "1", 
+        "RT_DIALOG": "1", 
+        "RT_VERSION": "1", 
+        "RT_GROUP_ICON": "1"
+    }, 
+    "Opened mutexes": [
+        "ShimCacheMutex"
+    ], 
+    "Packers identified": {
+        "F-PROT": "EXECryptor"
+    }, 
+    "ExifTool file metadata": {
+        "UninitializedDataSize": "0", 
+        "LinkerVersion": "6.0", 
+        "ImageVersion": "0.0", 
+        "FileVersionNumber": "1.0.0.1", 
+        "LanguageCode": "Korean", 
+        "FileFlagsMask": "0x003f", 
+        "CharacterSet": "Unicode", 
+        "InitializedDataSize": "49152", 
+        "MIMEType": "application/octet-stream", 
+        "Subsystem": "Windows GUI", 
+        "FileVersion": "1, 0, 0, 1", 
+        "TimeStamp": "2010:03:15 01:31:48+00:00", 
+        "FileType": "Win32 EXE", 
+        "PEType": "PE32", 
+        "ProductVersion": "1, 0, 0, 1", 
+        "SubsystemVersion": "4.0", 
+        "OSVersion": "4.0", 
+        "FileOS": "Win32", 
+        "LegalCopyright": "Copyright (C) 2007", 
+        "MachineType": "Intel 386 or later, and compatibles", 
+        "CodeSize": "122880", 
+        "FileSubtype": "0", 
+        "ProductVersionNumber": "1.0.0.1", 
+        "EntryPoint": "0x68721", 
+        "ObjectFileType": "Executable application"
+    }, 
+    "PE header basic information": {
+        "Compilation timestamp": "2010-03-15 01:31:48", 
+        "Number of sections": "7", 
+        "Entry Point": "0x00068721", 
+        "Target machine": "Intel 386 or later processors and compatible processors"
+    }, 
+    "Number of PE resources by language": {
+        "KOREAN": "4"
+    }, 
+    "PE sections": [
+        {
+            "Name": ".text", 
+            "Virtual address": "4096", 
+            "Virtual size": "122880", 
+            "Raw size": "0", 
+            "Entropy": "0.00", 
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e"
+        }, 
+        {
+            "Name": ".rdata", 
+            "Virtual address": "126976", 
+            "Virtual size": "28672", 
+            "Raw size": "0", 
+            "Entropy": "0.00", 
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e"
+        }, 
+        {
+            "Name": ".data", 
+            "Virtual address": "155648", 
+            "Virtual size": "8192", 
+            "Raw size": "0", 
+            "Entropy": "0.00", 
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e"
+        }, 
+        {
+            "Name": ".rsrc", 
+            "Virtual address": "163840", 
+            "Virtual size": "12288", 
+            "Raw size": "12288", 
+            "Entropy": "5.16", 
+            "MD5": "1024968c002e57de3d9d4da729049c51"
+        }, 
+        {
+            "Name": "cv18v91g", 
+            "Virtual address": "176128", 
+            "Virtual size": "98304", 
+            "Raw size": "0", 
+            "Entropy": "0.00", 
+            "MD5": "d41d8cd98f00b204e9800998ecf8427e"
+        }, 
+        {
+            "Name": "htkcr.bz", 
+            "Virtual address": "274432", 
+            "Virtual size": "155648", 
+            "Raw size": "153713", 
+            "Entropy": "7.99", 
+            "MD5": "fa346eb5c5026845bc899ffc9f10539b"
+        }, 
+        {
+            "Name": "aa45ysyi", 
+            "Virtual address": "430080", 
+            "Virtual size": "4096", 
+            "Raw size": "4096", 
+            "Entropy": "0.10", 
+            "MD5": "cb118f35167dae2be03641a622149c62"
+        }
+    ], 
+    "Opened files": [
+        "C:\\4ee9e741d65680cd4c44b5e9a5d7636511c0ae4b3e774b454b17fdc675edf289", 
+        "\\\\.\\PIPE\\lsarpc", 
+        "C:\\WINDOWS\\system32\\winsock.dll"
+    ], 
+    "UDP communications": [
+        "<MACHINE_DNS_SERVER>:53"
+    ], 
+    "Runtime DLLs": [
+        "rpcrt4.dll", 
+        "shlwapi.dll", 
+        "version.dll", 
+        "shell32.dll", 
+        "user32.dll", 
+        "advapi32.dll"
+    ]
+}
